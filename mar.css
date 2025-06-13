@@ -17,6 +17,14 @@
   margin-top: 10px;
 }
 
+#craft{
+  background-color: rgb(253, 237, 245); 
+  width: 1000px; 
+  padding: 20px 20px;
+  border-radius: 30px; 
+  border-style: groove;
+}
+
 .input:active {
   box-shadow: 2px 2px 15px #8707ff inset;
 }
@@ -35,10 +43,28 @@
     margin-top: 200px;
   }
   #craft{
-    max-width: 300px;
+    width: auto;
+    
+  }
+  .start{
+    flex-wrap: wrap ;
   }
   .we{
     flex-direction: column;
+  }
+  .footer{
+    flex-direction: column;
+    height: 700px;
+  }
+  .kkk{
+    display: none;
+  }
+  .less{
+    display: none;
+  }
+  sim {
+    align-items: center;
+    font-size: 13px;
   }
 }
 
@@ -59,10 +85,28 @@
     flex-wrap: wrap;
     margin-top: 200px;
   }
-  #craft{
-    max-width: 300px;
+   #craft{
+    width: auto;
+    align-self: center;
+  }
+  .start{
+    flex-wrap: wrap ;
   }
   .we{
     flex-direction: column;
   } 
+  .footer{
+    flex-direction: column;
+    height: 700px;
+  }
+  .kkk{
+    display: none;
+  }
+  less{
+    display: none;
+  }
+  .sim {
+    align-items: center;
+    font-size: 13px;
+  }
 }
